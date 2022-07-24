@@ -1,0 +1,242 @@
+.App {
+  text-align: center;
+ 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*  */
+
+.navCss{
+  width: 100%;
+   height: 90%;
+    margin-top: -10px; 
+    margin-right: 1px;
+}
+
+.navCss1{
+  width: 100%; height: 80%; margin-top: -3px; margin-left: -30px;
+}
+
+.navStyle{
+  background-color: white;
+  margin-top: 1px;
+  padding-top: 1%;
+  opacity: 0.75;
+}
+
+
+.nav-item:hover{
+  opacity: 0.8;
+ }
+
+ .slider{
+   font-family: sans-serif;
+   font-size: 50px;
+   font-weight: bolder;
+   color: white;
+   background-color: #282c3467;
+ padding: 2%;
+ position: relative;
+  bottom: 55px;
+  left:10%;
+ }
+
+ 
+@keyframes typing { from { width: 0; } }
+@keyframes blink-caret { 50% { border-color: transparent; } }
+
+.animations { 
+	/* font: bold 300% Consolas, Monaco, monospace; */
+	border-right: .1em solid black;
+	width: 16.5em; 
+	width: 29ch;
+	margin: 2em 1em;
+	white-space: nowrap;
+	overflow: hidden;
+animation: typing 2s steps(21, end),
+	           blink-caret .5s step-end alternate;
+}
+
+.homeStyle{
+ color: #84868d; font-weight: 600; font-size: larger;
+  font-family: sans-serif;
+}
+
+
+#btnStyle{
+  border-radius:40px;
+  border: 3px groove #153D77;
+  background-color:#153D77;
+  /* color: white;
+  width:90%;
+  font-weight: 700; */
+ padding: 0%;
+ margin: 0%;
+}
+
+#btnStyle:hover{
+  background-color:whitesmoke;
+  color : #153D77;
+  border: 2px groove #153D77;
+}
+
+#navStyle{
+  color: white;
+ 
+
+}
+#sd{
+  display: inline-block;
+}
+#navStyle:hover{
+  color: blue;
+}
+
+#backgrounds{
+  background-image: url('image10.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-color: red; */
+}
+/* .row{
+  border: 1px solid black;
+} */
+
+.a-sidebar:active{
+  background-color: #4c5869;
+}
+
+
+#backgrounds1{
+  background-image: url('bg2.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  /* opacity:0.5; */
+  /* background-color: red; */
+}
+
+#backgrounds2{
+  /* background-image: url('bg23.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%; */
+  /* opacity:0.5; */
+  /* background-color: red; */
+  background-image: linear-gradient(whitesmoke ,#153D77 , whitesmoke ,#153D77,whitesmoke)
+}
+
+#alink{
+  color:black;
+}
+#alink:hover{
+  opacity:0.7;
+}
+
+.cardStyle:hover{
+opacity:0.7;
+font-size: 30px;
+color:black;
+font-weight: 900px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+position:'absolute';
+top:'44%';
+left: '30%';
+
+}
+
+.cardStyle{
+  opacity:1;
+  }
+
+  .acard{
+    border:1px groove rgb(80, 80, 92);
+  
+  }
+
+  /*  */
+  #staff:hover 
+  {
+    background-color: #153D77;
+    color:white
+  }
+
+  #staff
+  {
+    background-color: white;
+    border: 1px groove white;
+    color:#153D77
+  }
+  #staffs{
+  
+ 
+    color:#153D77
+  }
+  #staffs:hover{
+   
+    border-left:5px solid #153D77
+  }
+
+.cardMove{
+  margin-top: -20px;
+}
+.cardMove:hover{
+  margin-top: -50px;
+}
+#rows{
+ 
+  --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+
+/* Terminal */
+#Navhovers:hover{
+  background-color: white;
+  border-radius: 20px;
+  /* border:1px groove green; */
+ 
+
+}
+#backgrounds3{
+  background-image: url('main_img3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%; 
+  /* opacity:0.5; */
+  /* background-color: red; */
+  /* background-image: linear-gradient(whitesmoke ,#153D77 , whitesmoke ,#153D77,whitesmoke) */
+}

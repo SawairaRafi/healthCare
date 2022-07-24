@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/healthCare/static/css/main.f39647e7.css",
+    "main.js": "/healthCare/static/js/main.119e24f3.js",
+    "static/media/main_img3.jpg": "/healthCare/static/media/main_img3.094dff4f5ee6cb5c336e.jpg",
+    "static/media/bg2.webp": "/healthCare/static/media/bg2.29712304297e9c4a77ab.webp",
+    "static/media/image10.jpg": "/healthCare/static/media/image10.6cee7fc9bc4cea2f9fd3.jpg",
+    "index.html": "/healthCare/index.html",
+    "main.f39647e7.css.map": "/healthCare/static/css/main.f39647e7.css.map",
+    "main.119e24f3.js.map": "/healthCare/static/js/main.119e24f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f39647e7.css",
+    "static/js/main.119e24f3.js"
+  ]
+}
